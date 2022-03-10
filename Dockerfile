@@ -13,4 +13,4 @@ EXPOSE 5013
 
 ENTRYPOINT [ "python" ]
 
-CMD ["gunicorn", "-b", "0.0.0.0:5013" "application.py" ]
+CMD [ "application.py" ]
