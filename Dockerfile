@@ -9,7 +9,7 @@ RUN pip install -r /application/requirements.txt
 
 COPY . /application
 
-EXPOSE 80
+EXPOSE 5013
 
 ENTRYPOINT [ "python" ]
 
